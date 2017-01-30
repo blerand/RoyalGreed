@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewAnimator
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewAnimator"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.77"
+        android:animateFirstView="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/ea"
+                android:id="@+id/RoyalImage"
+                android:layout_marginRight="84dp"
+                android:layout_marginEnd="84dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/playBtn"
+                android:layout_toStartOf="@+id/playBtn"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blerand"
+                android:textSize="10dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlue"
+                android:ems="20"
+                android:id="@+id/createdByBlerand"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="33dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/play"
+                android:background="@color/colorAccent"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold"
+                android:ems="10"
+                android:id="@+id/playBtn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginRight="90dp"
+                android:layout_marginEnd="90dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/arrow_left"
+                android:background="@color/colorAccent"
+                android:textColor="@color/darkBlue"
+                android:ems="10"
+                android:id="@+id/back_button"
+                android:layout_centerHorizontal="true"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_below="@+id/editText"
+                android:imeOptions="actionDone"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:paddingTop="100dp"
+                android:background="@drawable/play_btn"
+                android:id="@+id/play"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </ViewAnimator>
+</FrameLayout>
+

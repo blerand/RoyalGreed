@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Royal Greed</string>
+    <string name="name">Name</string>
+    <string name="logo">Logo</string>
+    <string name="score">Score</string>
+    <string name="kasta">Throw / Score</string>
+    <string name="save">Save</string>
+    <string name="throwScore">Round score:</string>
+    <string name="turn">Rounds:</string>
+    <string name="undo">Undo</string>
+    <string name="play">Play</string>
+    <string name="about">About</string>
+    <string name="goBack">Go back</string>
+    <string name="gameEndScore">Your score:</string>
+    <string name="gameEndThrow">Nr of rounds:</string>
+    <string name="blerand">© Created by Blerand Bahtiri. 2016</string>
+</resources>
